@@ -1,0 +1,75 @@
+.border{
+    border: solid red 2px;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;  
+}
+
+.justiftcontent{
+    justify-content: center;
+}
+
+.alignitem{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+    /* color: white; */
+}
+.rounded{
+    border-radius: 7px;
+}
+.p-1{
+    padding: 9px;
+
+}
+.p-2{
+    padding: 9px;
+
+}
+.grey-text{
+    color: #a7a7a7;
+}
+
+/* For WebKit (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* Dark color for the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #666; /* Dark color for the scrollbar handle */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Lighter color for the scrollbar handle on hover */
+  }
+  
+  /* For Firefox */
+  /* Note: Firefox currently doesn't support customizing scrollbar styles without using pseudo-elements */
+  /* You can use scrollbar-color and scrollbar-width properties in Firefox, but they're not as flexible as WebKit's solution */
+  /* Example:
+    scrollbar-color: #666 #333; // thumb color track color
+    scrollbar-width: thin; // or auto
+  */
+  
+  /* For IE and Edge */
+  /* Note: Microsoft Edge (pre-Chromium) and Internet Explorer have limited support for customizing scrollbars */
+  /* You can use the scrollbar-base-color property for Edge/IE9+ to change the scrollbar's base color, but other customizations are limited */
+  
+  
